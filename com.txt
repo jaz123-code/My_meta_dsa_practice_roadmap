@@ -1,0 +1,74 @@
+mymacbook@mys-Laptop pg_text % git init
+Initialized empty Git repository in /Users/mymacbook/Desktop/pg_text/.git/
+mymacbook@mys-Laptop pg_text % git add day-2.py
+mymacbook@mys-Laptop pg_text % git commit -m "added day2-.py"
+[main (root-commit) 0092fe0] added day2-.py
+ 1 file changed, 12 insertions(+)
+ create mode 100644 day-2.py
+mymacbook@mys-Laptop pg_text % git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> main
+
+mymacbook@mys-Laptop pg_text % git status
+
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        day-3.py
+        day-4.py
+        day-5.py
+        day10.py
+        day11.py
+        day12.01.py
+        day12.py
+        day13.py
+        day14.py
+        day15.py
+        day7.py
+        day8.py
+        day9.py
+        def day-6.py
+        main.py
+        venv/
+
+nothing added to commit but untracked files present (use "git add" to track)
+mymacbook@mys-Laptop pg_text % git diff
+mymacbook@mys-Laptop pg_text % git diff
+mymacbook@mys-Laptop pg_text % git diff -
+-stat
+mymacbook@mys-Laptop pg_text % git diff -
+-staged
+mymacbook@mys-Laptop pg_text % git log --
+online
+fatal: unrecognized argument: --online
+mymacbook@mys-Laptop pg_text % git log --
+oneline
+0092fe0 (HEAD -> main) added day2-.py
+mymacbook@mys-Laptop pg_text % git log --
+graph
+* commit 0092fe0328253574900cfccbaa8cdcfafd718f6b (HEAD -> main)
+  Author: jaz123-code <jazim5907@gmail.com>
+  Date:   Tue Feb 10 12:52:00 2026 +0530
+  
+      added day2-.py
+mymacbook@mys-Laptop pg_text % git commit
+--amend
+git: 'commit--amend' is not a git command. See 'git --help'.
+mymacbook@mys-Laptop pg_text % git commit--amend
+git: 'commit--amend' is not a git command. See 'git --help'.
+mymacbook@mys-Laptop pg_text % git comman
+d--amend
+git: 'command--amend' is not a git command. See 'git --help'.
+mymacbook@mys-Laptop pg_text % git commit
+ --amend
+hint: Waiting for your editor to close th
+error: there was a problem with the editor 'vi'
+Please supply the message using either -m or -F option.
+mymacbook@mys-Laptop pg_text % 
