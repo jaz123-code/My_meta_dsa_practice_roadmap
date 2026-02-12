@@ -72,3 +72,6 @@ hint: Waiting for your editor to close th
 error: there was a problem with the editor 'vi'
 Please supply the message using either -m or -F option.
 mymacbook@mys-Laptop pg_text % 
+git remote add origin https://github.com/jaz123-code/My_meta_dsa_practice_roadmap.git
+git remote -v
+git push -u origin main
